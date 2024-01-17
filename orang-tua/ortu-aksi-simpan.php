@@ -37,7 +37,7 @@ $sql = "INSERT INTO orang_tua (nim, nama_ayah, agama_ayah, pendidikan_ayah, peke
         '$alamat_ortu', '$no_telp_ortu')";
 
 if(mysqli_query($link, $sql)){
-    echo "<script>alert('Data Berhasil Disimpan!'); window.location.href='ortu-tampil-data';</script>";
+    echo "<script>alert('Data Berhasil Disimpan!'); window.location.href='ortu-tampil-data.php';</script>";
 } else {
     echo "<script>alert('Gagal menyimpan data!'); window.location.href='ortu-buat-akun.html';</script>";
 }
